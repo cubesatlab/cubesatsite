@@ -1,0 +1,420 @@
+/* 
+    Document   : style.css
+    Created on : Jul 9, 2015, 12:38:10 PM
+    Author     : Vermont Technical College
+
+   Note: This is the uncompressed copy of style.css
+*/
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../images/background.jpg');
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+h2, h3 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+h1.ada_compliance{
+    margin: 0;
+    padding-bottom: 20px;
+    letter-spacing: -1px;
+    font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 2.4em;
+}
+
+h2 {
+    font-size: 2.1em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+p, ul, ol {
+    margin-top: 0;
+    line-height: 180%;
+}
+
+ul, ol {
+}
+
+a{
+    text-decoration: underline;
+    color: White;
+	font-style: italic;
+}
+
+a.skipNav{
+	color: transparent;
+	padding: 4px;
+}
+
+a.skipNav:focus{
+	color: #000000;
+	background: #FFFFFF;
+}
+
+a:hover{
+	color: #000000;
+	background: rgba(255,255,255,.85);
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-radius: 5px;
+}
+a:focus{
+	color: #000000;
+	background: rgba(255,255,255,.85);
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-radius: 5px;
+}
+
+img.border {
+    border: 6px solid #E1F1F6;
+}
+
+img.alignleft {
+    float: left;
+    margin-right: 25px;
+}
+
+img.alignright {
+    float: right;
+}
+
+img.aligncenter {
+    margin: 0 auto;
+}
+
+/* Header */
+
+#header {
+    width: 800px;
+    height: 250px;
+    margin: 75px auto -75px auto;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Arial Black', sans-serif;
+    color: white;
+}
+
+h2.siteTitle{
+	background: rgba(89,89,89,0.6);
+	font-size: 1.4em;
+	border-radius: 10px;
+}
+
+/* Navigation */
+
+.menu-wrap {
+    width: 100%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    background: #1e50ae;
+}
+
+.menu {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.menu li {
+    margin: 0;
+    list-style: none;
+    font-family: Arial, sans-serif;
+}
+
+.menu a {
+    transition: all linear 0.15s;
+    color: #FFFFFF;
+}
+
+.current_page_item {
+    background: #1e50ae;
+	text-decoration: none;
+	font-style: normal;
+}
+.current_page_item:hover{
+	background: #1e50ae;
+	text-decoration: none;
+	font-style: normal;
+}
+
+.current_page_item:focus{
+	background: #1e50ae;
+	text-decoration: none;
+	font-style: normal;
+}
+
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.menu {
+    font-size: 11px;
+    line-height: 0;
+}
+
+
+/*----- Top Level -----*/
+.menu > ul > li {
+    float: left;
+    display: inline-block;
+    position: relative;
+    font-size: 19px;
+	
+}
+
+.menu > ul > li > a.current_page_item {
+    padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 40px;
+	padding-left: 40px;
+    display: inline-block;
+	border-radius: 0px;
+}
+
+.menu > ul > li > a.normal {
+    padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 40px;
+	padding-left: 40px;
+    display: inline-block;
+	text-decoration: none;
+	font-style: normal;
+	border-radius: 0px;
+}
+
+.menu > ul > .current-item > a {
+    background: #1e50ae;
+}
+.menu > ul > li:hover > a.normal:hover{
+	background: #1e50ae;
+}
+.menu > ul > li > a.normal{
+	background: #163c83;
+}
+
+button.navbar{
+	background: transparent;
+	color: #FFFFFF;
+	border: none;
+	cursor: pointer;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 0px;
+}
+
+li.tab:hover{
+	background: #1e50ae;
+}
+
+li.tab{
+	background: #163c83;
+}
+
+li.tabActive{
+	background: #1e50ae;
+}
+
+a.newdropdown{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-left: 40px;
+    display: inline-block;
+	text-decoration: none;
+	font-style: normal;
+}
+a.newdropdown:hover{
+	background: #1e50ae;
+}
+
+a.imageLink{					
+	background: transparent;
+}
+
+/*----- Bottom Level -----*/
+.menu li:hover .sub-menu{
+    display: inline;
+	background: #163c83;
+}
+
+.sub-menu {
+    width: 150%;
+    padding: 0 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+	display: none;
+    transition: all linear 0.5s;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.sub-menu li {
+    display: block;
+    font-size: 16px;
+	background: #163c83;
+}
+
+.sub-menu li a {
+    padding: 10px 30px;
+    display: block;
+	text-decoration: none;
+	font-style: normal;
+}
+
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background: #1e50ae;
+}
+		
+.sub-menu li a:focus, .sub-menu .current-item a {
+	background: #1e50ae;
+}
+
+#page {
+    overflow: hidden;
+    width: 900px;
+    margin: 0 auto;
+    padding: 50px 40px;
+	background: #1e50ae;
+}
+
+
+/* Content */
+
+#content {
+    float: left;
+    width: 520px;
+    padding: 0 20px;
+}
+
+.post {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #0E2754;
+}
+
+.post .title {
+    padding-bottom: 20px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+
+.post .title a {
+    border: none;
+    color: #FFFFFF;
+}
+
+.post .meta {
+    padding-bottom: 5px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: italic;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+    text-align: justify;
+    margin-bottom: 25px;
+    padding: 10px 0 0 0;
+}
+
+.links {
+    display: block;
+    width: 96px;
+    padding: 2px 0 2px 0;
+    background: #A53602;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+/* Footer */
+
+#footer {
+    width: 900px;
+    height: 140px;
+    margin: 0 auto;
+}
+
+#footer p {
+    margin: 0;
+    padding-top: 30px;
+    line-height: normal;
+    text-align: center;
+    font-size: 12px;
+}
+
+#footer a {
+    text-decoration: underline;
+    color: #889CB1;
+}
+
+#about {
+    overflow: hidden;
+    width: 820px;
+    margin: 0 auto;
+    padding: 40px 40px;
+}
+
+#about .title {
+    padding-bottom: 10px;
+    letter-spacing: -1px;
+    text-transform: lowercase;
+    color: #A26500;
+}
+
+#two-column {
+    padding-top: 30px;
+}
+
+#two-column h2 {
+    padding-bottom: 20px;
+    letter-spacing: -1px;
+    text-transform: lowercase;
+    font-size: 30px;
+    color: #A26500;
+}
+
+#two-column #column1 {
+    float: left;
+    width: 390px;
+}
+
+#two-column #column2 {
+    float: right;
+    width: 390px;
+}
+
+.list-style1 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list-style1 li {
+    padding: 5px 0;
+    border-top: 1px solid #EEEEEE;
+}
+
+.list-style1 a:hover {
+    text-decoration: underline;
+}
+
+.list-style1 .first {
+    border-top: none;
+}

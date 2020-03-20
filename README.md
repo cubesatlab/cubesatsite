@@ -1,2 +1,6 @@
-# cubesatsite
-The CubeSat Laboratory web site
+
+CubeSatSite
+===========
+
+The CubeSat Laboratory web site.
+
