@@ -13,7 +13,8 @@
   <main id="maincontent">
   <div id="page">
     <div class="post">
-	  <h1 class="ada_compliance">Overview</h1>
+      <h1 class="ada_compliance">Overview</h1>
+      
       <p>The CubeSat Laboratory at <b><a href="http://www.vtc.edu/">Vermont Technical College</a></b>
       (VTC) is a collection of students, faculty, and staff building <b><b><a
       href="https://en.wikipedia.org/wiki/CubeSat">CubeSat</a></b></b> technology spacecraft.</p>
@@ -211,7 +212,7 @@
       <h2>People</h2>
 
       <!-- Put people in alphabetical order by last name in each section, except keep Carl
-           Brandon and Jeremy Ouellette who should be kept at the top. -->
+           Brandon and Peter Chapin who should be kept at the top. -->
 
       <ul>
         <li><p><strong><a href="mailto:cbrandon@vtc.edu">Dr. Carl Brandon</a></strong> (2007
@@ -219,10 +220,18 @@
         Technical College (VTC). He oversees and administers the project and does whatever else
         needs doing.</p></li>
 
-        <li><p><strong>Dr. Jeremy Ouellette</strong> (May 2019 &#x2013;), Software
-        Director.<br/>Dr. Ouellette is a professor of computer information systems at VTC. He
-        oversees and contributes to the software development done on the project, working
-        especially with the high integrity software tool chain used.</p></li>
+        <li><p><strong><a href="http://lemuria.cis.vtc.edu/~pchapin/">Dr. Peter Chapin</a></strong> (2007
+        &#x2013;), Software Director.<br/>Dr. Chapin is a professor of computer information
+        systems at VTC. He oversees and contributes to the software development done on the
+        project, working especially with the high integrity tool chain used.</p></li>
+        
+        <li><p><strong>Sevan Golnazarian</strong> (November 2020 &#x2013;), Software Engineering
+            (MSEE) student.<br/>Mr. Golnazarian is working on CubedOS and, in particular, on
+            extending CubedOS to work with CubeSat swarms.</p></li>
+        
+        <li><p><strong>Silas Smith</strong> (May 2020 &#x2013;), Software Engineering
+            Student.<br/> Mr. Smith is working on an implementation of the JT65 communications
+            protocol for CubedOS.</p></li>
       </ul>
 
       <h3>Past Students, Faculty, and Staff</h3>
@@ -239,10 +248,6 @@
         <li><p><strong>Jonathan Broadfoot</strong> (May 2016 &#x2013; May 2018), Software
         Engineering student.<br/>Mr. Broadfoot worked on Lunar IceCube.</p></li>
 
-        <li><p><strong><a href="http://lemuria.cis.vtc.edu/~pchapin/">Dr. Peter Chapin</a></strong> (2007
-        &#x2013; May 2019).<br/>Dr. Chapin is a professor of computer information systems at
-        VTC. He was the Software Director for the project.</p></li>
-
         <li><p><strong>Al Corkery</strong> (Sep 2010 &#x2013; May 2011).<br/>Mr. Corkery worked
         on GPS interfacing for our BasicLEO satellite.</p></li>
 
@@ -250,6 +255,10 @@
         Engineering Technology student.<br/>Mr. D'Amour worked on building a drone test platform
         for CubedOS as a senior project.</p></li>
 
+        <li><p><strong>Devon Diianni</strong> (May 2020 &#x2013; August 2020), Software
+            Engineering Student.<br/>Mr. Diianni worked on an implementation of the JT65
+            communication protocol for CubedOS.</p></li>
+        
         <li><p><strong>Christopher Farnsworth</strong> (May 2016 &#x2013; May 2018), Software
         Engineering (MSSE) student.<br/>Mr. Farnsworth worked on Lunar IceCube. His Master's
         project was to implement the spiral thrusting technique required to dump thrust axis
@@ -257,6 +266,10 @@
 
         <li><p><strong>Sarah Ferland</strong> (March 2017 &#x2013; May 2019), Software
         Engineering student.<br/>Ms. Ferland worked on Lunar IceCube and CubedOS.</p></li>
+        
+        <li><p><strong>Taylor Hegarty</strong> (September 2018 &#x2013; May 2020), Information
+          Technology student.<br/>. Mr. Hegarty worked on the CubeSat Laboratory web site,
+          helping to bring it into ADA compliance.</p></li>
 
         <li><p><strong>Jordan Hodge</strong> (Sep 2010 &#x2013; May 2011).<br/>Mr. Hodge worked
         on our ground station.</p></li>
@@ -294,6 +307,9 @@
 
         <li><p><strong>Colin Myers</strong> (Sep 2012 &#x2013; May 2013).<br/>Mr. Meyers worked
         on the flight control software for our BasicLEO satellite.</p></li>
+
+        <li><p><strong>Dr. Jeremy Ouellette</strong> (May 2019 &#x2013;), Former Software
+        Director.<br/>Dr. Ouellette is a professor of computer information systems at VTC.</p></li>
 
         <!-- TODO: Is the start date of Nov 2012 correct for Oliver? -->
         <li><p><strong>Oliver Piluski</strong> (Nov 2012 &#x2013; Nov 2013).<br/>Mr. Piluski is
@@ -349,7 +365,7 @@
 
     <!-- BEGIN FOOTER -->
     <div id="footer">
-      <p>&#169; Copyright 2019 by Vermont Technical College | Last Revised: December 31, 2019</p>
+      <p>&#169; Copyright 2020 by Vermont Technical College | Last Revised: November 12, 2020</p>
     </div>
     <!-- END FOOTER -->
 
