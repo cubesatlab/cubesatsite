@@ -271,8 +271,8 @@
         <li><p><strong>Sarah Ferland</strong> (March 2017 &#x2013; May 2019), Software
         Engineering student.<br/>Ms. Ferland worked on Lunar IceCube and CubedOS.</p></li>
         
-        <li><p><strong>Taylor Hegarty</strong> (September 2018 &#x2013; May 2020), Information
-          Technology student.<br/>. Mr. Hegarty worked on the CubeSat Laboratory web site,
+        <li><p><strong>Taylor Hegarty</strong> (September 2018 &#x2013; May 2020), Software
+          Engineering student.<br/>. Mr. Hegarty worked on the CubeSat Laboratory web site,
           helping to bring it into ADA compliance.</p></li>
 
         <li><p><strong>Jordan Hodge</strong> (Sep 2010 &#x2013; May 2011).<br/>Mr. Hodge worked
