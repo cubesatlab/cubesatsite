@@ -40,6 +40,10 @@
       <h2>Papers and Presentations</h2>
 
       <ul>
+        <li><b><a href="http://www.cubesatlab.org:430/PUBLIC/brandon-chapin-farnsworth-klink-AUJ-2017.pdf">CubedOS:
+              A Verified CubeSat Operating System</a></b> by Carl Brandon, Peter Chapin, Chris
+              Farnsworth, and Sean Klink. <i>Ada User Journal</i> 38(3), September 2017.</li>
+        
         <li>SPARK/Frama-C Day, presentation by Carl Brandon and Peter Chapin, May 30, 2017,
         Paris, France. (<b><b><a
         href="http://www.cubesatlab.org:430/PUBLIC/SPARK-Frama-C-Day-2017.pdf">slides</a></b></b>)</li>
@@ -365,7 +369,7 @@
 
     <!-- BEGIN FOOTER -->
     <div id="footer">
-      <p>&#169; Copyright 2020 by Vermont Technical College | Last Revised: November 12, 2020</p>
+      <p>&#169; Copyright 2021 by Vermont Technical College | Last Revised: January 5, 2021</p>
     </div>
     <!-- END FOOTER -->
 
