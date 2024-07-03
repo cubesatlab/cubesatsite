@@ -1,7 +1,7 @@
 <%-- 
     Document     : index.jsp
-    Last Revised : Apr 5, 2022
-    Author       : Vermont Technical College
+    Last Revised : July 3, 2024
+    Author       : Vermont State University
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8" %>
@@ -15,132 +15,145 @@
     <div class="post">
       <h1 class="ada_compliance">Overview</h1>
       
-      <p>The CubeSat Laboratory at <b><a href="http://www.vtc.edu/">Vermont Technical College</a></b>
-      (VTC) is a collection of students, faculty, and staff building <b><b><a
-      href="https://en.wikipedia.org/wiki/CubeSat">CubeSat</a></b></b> technology spacecraft.</p>
+      <p>The CubeSat Laboratory at <b><a href="https://www.vermontstate.edu/">Vermont State
+      University</a></b> (VTSU) is a collection of students, faculty, and staff building
+      <b><b><a href="https://en.wikipedia.org/wiki/CubeSat">CubeSat</a></b></b> technology
+      spacecraft.</p>
 
-      <p>While CubeSats are being constructed by many groups around the world, both inside and
-      outside of academia, what makes our work different is that we use the <b><a
-      href="http://www.spark-2014.org/">SPARK/Ada programming language</a></b> for our software
-      needs. As compared to the more commonly used C language, Ada makes it much easier to write
-      correct, robust software. SPARK adds the ability to create mathematical proofs (with the
-      aid of tools) showing freedom from certain classes of runtime errors and other correctness
-      properties. Our BasicLEO CubeSat, launched in November 2013 is the first CubeSat
-      programmed with Ada and the first spacecraft of any kind programmed with SPARK.</p>
+      <p>CubeSats are being constructed by many groups around the world, both inside and outside
+      of academia, but what makes our work different is that we use the <b><a
+      href="https://www.adacore.com/sparkpro">SPARK/Ada programming language</a></b>. As
+      compared to the more commonly used C language, Ada makes it much easier to write robust
+      software. SPARK adds the ability to create mathematical proofs (with the aid of tools)
+      showing various correctness properties such as freedom from certain classes of runtime
+      errors. Our BasicLEO CubeSat, launched in November 2013 is the first CubeSat programmed
+      with Ada and the first spacecraft of any kind programmed with SPARK.</p>
 
-      <p>This is the official web site for VTC's CubeSat Laboratory providing information about
+      <p>This is the official web site for VTSU's CubeSat Laboratory providing information about
       all our missions, both in the past and ongoing. See the <b><a
       href="http://cubesatlab.blogspot.com/">Flying Sparks</a></b> blog for up to the minute
       information about our current work. To contact us, see the "People" section below.</p>
 
-      <p>This web site was designed, created, and is maintained by VTC students and faculty.</p>
+      <p>This web site was designed, created, and is maintained by VTSU students and faculty.</p>
     </div>
 
     <div class="post">
       <h2>Papers and Presentations</h2>
 
       <ul>
-        <li><b><a href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/brandon-chapin-farnsworth-klink-AUJ-2017.pdf">CubedOS:
+
+        <li><b><a
+        href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/brandon-chapin-farnsworth-klink-AUJ-2017.pdf">CubedOS:
         A Verified CubeSat Operating System</a></b> by Carl Brandon, Peter Chapin, Chris
         Farnsworth, and Sean Klink. <i>Ada User Journal</i> 38(3), September 2017.</li>
         
         <li>SPARK/Frama-C Day, presentation by Carl Brandon and Peter Chapin, May 30, 2017,
         Paris, France. (<b><b><a
-        href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/SPARK-Frama-C-Day-2017.pdf">slides</a></b></b>)</li>
+        href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/SPARK-Frama-C-Day-2017.pdf">slides</a></b></b>)</li>
 
         <li>CubeSat Developers Workshop, presentation by Carl Brandon, April 28, 2017. (<b><a
-        href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/CubeSat-Developers-Workshop-2017.pdf">slides</a></b>)</li>
+        href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/CubeSat-Developers-Workshop-2017.pdf">slides</a></b>)</li>
 
         <li>STEM Academy Lecture Series at Essex High School, presentation by Peter Chapin,
         November 17, 2016. (<b><a
-        href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/Essex-High-School-2016-11-17.pdf">slides</a></b>)</li>
+        href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/Essex-High-School-2016-11-17.pdf">slides</a></b>)</li>
 
-        <li><b><a href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/brandon-chapin-HILT-2016.pdf">The Use
-        of SPARK in a Complex Spacecraft</a></b> by Carl Brandon and Peter Chapin. <i>Proceedings of
-        the <b><a href="http://www.sigada.org/conf/hilt2016/">High Integrity Language Technology
-        workshop</a></b></i> (HILT-2016); October 6-7, 2016, Pittsburgh, PA, USA. (<b><a
-        href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/2016-10-06-HILT-2016.pdf">slides</a></b>)</li>
+        <li><b><a
+        href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/brandon-chapin-HILT-2016.pdf">The
+        Use of SPARK in a Complex Spacecraft</a></b> by Carl Brandon and Peter Chapin.
+        <i>Proceedings of the <b><a href="http://www.sigada.org/conf/hilt2016/">High Integrity
+        Language Technology workshop</a></b></i> (HILT-2016); October 6-7, 2016, Pittsburgh, PA,
+        USA. (<b><a
+        href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/2016-10-06-HILT-2016.pdf">slides</a></b>)</li>
 
         <li>Spacecraft Flight Software Workshop (FSW-2015), Laurel, MD, October 29, 2015 (<b><a
-        href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/2015-10-29-FSW-2015.pdf">slides</a></b>)</li>
+        href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/2015-10-29-FSW-2015.pdf">slides</a></b>)</li>
 
-        <li><b><a href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/brandon-chapin-IAC-2015.pdf">High
-        Integrity Software for CubeSats and Other Space Missions</a></b> by Carl Brandon and Peter
-        Chapin. <i>Proceedings of <b><a href="https://web.archive.org/web/20160822141102/http://www.iac2015.org/">66<sup>th</sup>
-        International Astronautical Congress</a></b></i>; October 12--16, 2015, Jerusalem, Israel
-        (<b><a href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/2015-10-15-IAC-2015.pdf">slides</a></b>)</li>
+        <li><b><a
+        href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/brandon-chapin-IAC-2015.pdf">High
+        Integrity Software for CubeSats and Other Space Missions</a></b> by Carl Brandon and
+        Peter Chapin. <i>Proceedings of <b><a
+        href="https://web.archive.org/web/20160822141102/http://www.iac2015.org/">66<sup>th</sup>
+        International Astronautical Congress</a></b></i>; October 12--16, 2015, Jerusalem,
+        Israel (<b><a
+        href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/2015-10-15-IAC-2015.pdf">slides</a></b>)</li>
         
         <li>Vermont Space Grant Consortium dinner, September 16, 2015 (<b><a
-        href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/Space-Grant-Dinner-2015-Poster.pdf">Poster</a></b>).</li>
+        href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/Space-Grant-Dinner-2015-Poster.pdf">Poster</a></b>).</li>
 
         <li>STEM Academy Lecture Series at Essex High School, presentation by Peter Chapin,
         October 28, 2014. (<b><a
-        href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/Essex-High-School-2014-10-28.pdf">slides</a></b>)</li>
+        href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/Essex-High-School-2014-10-28.pdf">slides</a></b>)</li>
 
         <li>Vermont Space Grant Consortium dinner, November 4, 2013 (<b><a
-        href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/Space-Grant-Dinner-2013-Poster.pdf">Poster</a></b>).</li>
+        href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/Space-Grant-Dinner-2013-Poster.pdf">Poster</a></b>).</li>
 
-        <li><b><a href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/brandon-chapin-AdaEurope2013.pdf">A
-        SPARK/Ada CubeSat Control Program</a></b> by Carl Brandon and Peter Chapin. <i>Proceedings
-        of <b><a href="http://www.ada-europe2013.org/">Ada Europe 2013</a></b></i>; June 10--14, 2013
-        (Berlin, Germany); LNCS 7896; pages 51--64. (<b><a
-        href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/AdaEurope2013.pdf">slides</a></b>)</li>
+        <li><b><a
+        href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/brandon-chapin-AdaEurope2013.pdf">A
+        SPARK/Ada CubeSat Control Program</a></b> by Carl Brandon and Peter Chapin.
+        <i>Proceedings of <b><a href="http://www.ada-europe2013.org/">Ada Europe
+        2013</a></b></i>; June 10--14, 2013 (Berlin, Germany); LNCS 7896; pages 51--64. (<b><a
+        href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/AdaEurope2013.pdf">slides</a></b>)</li>
 
         <li>CubeSat Developers Workshop 2013, presentation by Carl Brandon, April 2013. (<b><a
-        href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/CubeSat-Developers-Workshop-2013.pdf">slides</a></b>)</li>
+        href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/CubeSat-Developers-Workshop-2013.pdf">slides</a></b>)</li>
 
         <li>Senior Projects presentation on the flight control software by Dan Turner and Colin
         Myers, April 2013. (<b><a
-        href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/Senior-Projects-2013-Flight-Control-System.pdf">slides</a></b>)</li>
+        href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/Senior-Projects-2013-Flight-Control-System.pdf">slides</a></b>)</li>
 
         <li>Vermont Space Grant Consortium dinner, November 7, 2012
           <ul>
             <li><b><a
-            href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/Space-Grant-Dinner-2012-Poster.pdf">CubeSat
-            Flight Control Software</a></b></li>
-            <li><b><a
-            href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/Space-Grant-Dinner-2012-Slides.pdf">Presentation
+            href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/Space-Grant-Dinner-2012-Poster.pdf">CubeSat
+            Flight Control Software</a></b></li> <li><b><a
+            href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/Space-Grant-Dinner-2012-Slides.pdf">Presentation
             Slides</a></b></li>
-          </ul>
-        </li>
+          </ul></li>
 
-        <li>Senior Projects presentation on the navigation system by Al Corkery, April 2011. (<b><a
-        href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/Senior-Projects-2011-CubeSat-Navigation-System.pdf">slides</a></b>)</li>
+        <li>Senior Projects presentation on the navigation system by Al Corkery, April 2011.
+        (<b><a
+        href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/Senior-Projects-2011-CubeSat-Navigation-System.pdf">slides</a></b>)</li>
 
         <li>Senior Projects presentation on the ground station by Jordan Hodge, Jordan Lyford,
         and Wilson Schreiber, April 2011. (<b><a
-        href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/Senior-Projects-2011-Ground-Station.pdf">slides</a></b>)</li>
+        href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/Senior-Projects-2011-Ground-Station.pdf">slides</a></b>)</li>
 
         <li>Vermont Space Grant Consortium dinner, October 6, 2010
           <ul>
             <li><b><a
-            href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/Space-Grant-Dinner-2010-Poster-CubeSat-Lunar-Lander-Design.pdf">Lunar
+            href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/Space-Grant-Dinner-2010-Poster-CubeSat-Lunar-Lander-Design.pdf">Lunar
             Lander Design</a></b></li>
+
             <li><b><a
-            href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/Space-Grant-Dinner-2010-Poster-Ion-Drive-Lunar-Orbiter.pdf">Ion
+            href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/Space-Grant-Dinner-2010-Poster-Ion-Drive-Lunar-Orbiter.pdf">Ion
             Drive Lunar Orbiter</a></b></li>
+
             <li><b><a
-            href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/Space-Grant-Dinner-2010-Poster-Software-Development-Process.pdf">Software
+            href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/Space-Grant-Dinner-2010-Poster-Software-Development-Process.pdf">Software
             Development Process</a></b></li>
+
             <li><b><a
-            href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/Space-Grant-Dinner-2010-Poster-SPARK-Ada-for-CubeSats.pdf">SPARK/Ada
+            href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/Space-Grant-Dinner-2010-Poster-SPARK-Ada-for-CubeSats.pdf">SPARK/Ada
             for CubeSats</a></b></li>
           </ul>
         </li>
 
-        <li>CubeSat Developers Workshop 2010, presentation by Carl Brandon, April 23, 2010. (<b><a
-        href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/CubeSat-Developers-Workshop-2010.pdf">slides</a></b>)</li>
+        <li>CubeSat Developers Workshop 2010, presentation by Carl Brandon, April 23, 2010.
+        (<b><a
+        href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/CubeSat-Developers-Workshop-2010.pdf">slides</a></b>)</li>
 
         <li><b><a
-        href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/loseby-chapin-brandon-SIGAda2009.pdf">Use of
-        SPARK in a Resource Constrained Embedded System</a></b> by Chad Loseby, Peter Chapin, and
-        Carl Brandon. <i>Proceedings of <b><a href="http://www.sigada.org/conf/sigada2009/">SIGAda
-        2009</a></b></i>; November 1--5, 2013 (St. Petersburg, Florida); pages 87--90. (<b><a
-        href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/SIGAda2009.pdf">slides</a></b>)</li>
+        href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/loseby-chapin-brandon-SIGAda2009.pdf">Use
+        of SPARK in a Resource Constrained Embedded System</a></b> by Chad Loseby, Peter Chapin,
+        and Carl Brandon. <i>Proceedings of <b><a
+        href="http://www.sigada.org/conf/sigada2009/">SIGAda 2009</a></b></i>; November 1--5,
+        2009 (St. Petersburg, Florida); pages 87--90. (<b><a
+        href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/SIGAda2009.pdf">slides</a></b>)</li>
 
         <li>Senior Projects presentation on the Alaskan ice buoy software by Chad Loseby, April
         2009. (<b><a
-        href="http://lemuria.cis.vtc.edu/CubeSat/PUBLIC/Senior-Projects-2009-Alaskan-Ice.pdf">slides</a></b>)</li>
+        href="http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/Senior-Projects-2009-Alaskan-Ice.pdf">slides</a></b>)</li>
       </ul>
     </div>
 
@@ -219,25 +232,19 @@
            Brandon and Peter Chapin who should be kept at the top. -->
 
       <ul>
-        <li><p><strong><a href="mailto:cbrandon@vtc.edu">Dr. Carl Brandon</a></strong> (2007
-        &#x2013;), Principal Investigator.<br/>Dr. Brandon is a professor of physics at Vermont
-        Technical College (VTC). He oversees and administers the project and does whatever else
-        needs doing.</p></li>
+        <li><p><strong><a href="mailto:carl.brandon@vermontstate.edu">Dr. Carl
+        Brandon</a></strong> (2007 &#x2013;), Principal Investigator.<br/>Dr. Brandon is a
+        professor of physics at Vermont State University (VTSU). He oversees and administers the
+        project and does whatever else needs doing.</p></li>
 
-        <li><p><strong><a href="http://lemuria.cis.vtc.edu/~pchapin/">Dr. Peter Chapin</a></strong>
-        (2007 &#x2013;), Software Director.<br/>Dr. Chapin is a professor of computer information
-        systems at VTC. He oversees and contributes to the software development done on the
+        <li><p><strong><a href="https://www.pchapin.org/VTSU/">Dr. Peter Chapin</a></strong>
+        (2007 &#x2013;), Software Director.<br/>Dr. Chapin is a professor of software
+        engineering at VTSU. He oversees and contributes to the software development done on the
         project, working especially with the SPARK tools.</p></li>
         
-        <li><p><strong>Eric Berlin</strong> (May 2021 &#x2013;), Software Engineering student.<br/>
-        Mr. Berlin is working on the Blackfly project.</p></li>
-        
-        <li><p><strong>Sevan Golnazarian</strong> (November 2020 &#x2013;), Software Engineering
-        (MSEE) student.<br/>Mr. Golnazarian is working on CubedOS and, in particular, on
-        extending CubedOS to work in a distributed environment.</p></li>
-        
-        <li><p><strong>Ty Silva</strong> (May 2021 &#x2013;), Software Engineering student.<br/>
-        Mr. Silva is working on the ScriptBuilder, a tool for scripting CubedOS commands.</p></li>
+        <li><p><strong>Kathleen Niekrewicz</strong> (May 2024 &#x2013;), Software Engineering
+        student.<br/>Ms. Niekrewicz is working on general clean-up and finishing of
+        CubedOS.</p></li>
       </ul>
 
       <h3>Past Students, Faculty, and Staff</h3>
@@ -252,6 +259,10 @@
         <li><p><strong>India Beauregard</strong>, Software Engineering student.<br/>Ms.
         Beauregard worked on the inertial measurement unit for our BasicLEO satellite.</p></li>
 
+        <!-- TODO: Is the end date of May 2022 correct for Ez? -->
+        <li><p><strong>Ez Berlin</strong> (May 2021 &#x2013; May 2022), Software Engineering
+        student.<br/> Ms. Berlin is worked on the Blackfly project.</p></li>
+        
         <li><p><strong>Jonathan Broadfoot</strong> (May 2016 &#x2013; May 2018), Software
         Engineering student.<br/>Mr. Broadfoot worked on Lunar IceCube.</p></li>
 
@@ -263,8 +274,14 @@
         for CubedOS as a senior project.</p></li>
 
         <li><p><strong>Devon Diianni</strong> (May 2020 &#x2013; August 2020), Software
-        Engineering Student.<br/>Mr. Diianni worked on an implementation of the JT65
+        Engineering student.<br/>Mr. Diianni worked on an implementation of the JT65
         communication protocol for CubedOS.</p></li>
+        
+        <li><p><strong>Eric Edlund</strong> (May 2023 &#x2013; August 2023), Software Engineering
+        student.<br/>Mr. Edlund created a broad refactoring of CubedOS that
+        addressed a number of limitations in the original design. Eric's refactoring is referred
+        to as "version 2" of the CubedOS architecture to contrast it with the original, version 1
+        design.</p></li>
         
         <li><p><strong>Christopher Farnsworth</strong> (May 2016 &#x2013; May 2018), Software
         Engineering (MSSE) student.<br/>Mr. Farnsworth worked on Lunar IceCube. His Master's
@@ -273,6 +290,11 @@
 
         <li><p><strong>Sarah Ferland</strong> (March 2017 &#x2013; May 2019), Software
         Engineering student.<br/>Ms. Ferland worked on Lunar IceCube and CubedOS.</p></li>
+        
+        <!-- TODO: Is the end date of May 2022 correct for Sevan? -->
+        <li><p><strong>Sevan Golnazarian</strong> (November 2020 &#x2013; May 2022), Software
+        Engineering (MSEE) student.<br/>Mr. Golnazarian is worked on CubedOS and, in particular,
+        on extending CubedOS to work in a distributed environment.</p></li>
         
         <li><p><strong>Taylor Hegarty</strong> (September 2018 &#x2013; May 2020), Software
         Engineering student.<br/>. Mr. Hegarty worked on the CubeSat Laboratory web site,
@@ -328,6 +350,11 @@
         a VTC alumnus who has assisted with the construction of our BasicLEO satellite. He is an
         employee of LEDdyanmics, Inc.</p></li>
 
+        <!-- TODO: Is the end date of May 2022 correct for Katie? -->
+        <li><p><strong>Katie Ty Silva</strong> (May 2021 &#x2013; May 2022), Software
+        Engineering student.<br/> Ms. Silva is worked on the ScriptBuilder, a tool for scripting
+        CubedOS commands.</p></li>
+
         <li><p><strong>Wilson Schreiber</strong> (Sep 2010 &#x2013; May 2011).<br/>Mr. Schreiber
         worked on our ground station.</p></li>
 
@@ -335,7 +362,7 @@
         student.<br/> Mr. Smith worked on an implementation of the JT65 communications
         protocol for CubedOS.</p></li>
 
-        <li><p><strong><a href="mailto:dturner34@gmail.com">Dan Turner</a></strong> (May 2012
+        <li><p><strong>Dan Turner</strong> (May 2012
         &#x2013; Jan 2015), Software Engineering student.<br/>Mr. Turner worked on the flight
         and ground control software of our BasicLEO satellite.</p></li>
 
@@ -381,7 +408,7 @@
 
     <!-- BEGIN FOOTER -->
     <div id="footer">
-      <p>&#169; Copyright 2022 by Vermont Technical College | Last Revised: April 5, 2022</p>
+      <p>&#169; Copyright 2024 by Vermont State University | Last Revised: July 3, 2024</p>
     </div>
     <!-- END FOOTER -->
 

@@ -1,7 +1,7 @@
 <%-- 
     Document   : Header-AlaskanIce.jsp
     Created on : Jul 27, 2015, 12:38:10 PM
-    Author     : Vermont Technical College
+    Author     : Vermont State Univerity
 --%>
 <%@page contentType="text/html" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
@@ -15,7 +15,7 @@
 <a class="skipNav" href="#maincontent">Skip navigation</a>
 <div id="header">
   <h2 class="siteTitle">
-  Vermont Technical College<br/>
+  Vermont State University<br/>
   CubeSat Laboratory</h2>
 </div>
 <!-- end #header -->

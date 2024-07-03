@@ -1,7 +1,7 @@
 <%-- 
     Document   : BasicLEO-Hardware.jsp
     Created on : Jul 9, 2015, 12:38:10 PM
-    Author     : Vermont Technical College
+    Author     : Vermont State University
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8" %>
@@ -76,7 +76,7 @@
 
       <!-- BEGIN FOOTER -->
       <div id="footer">
-        <p>&#169; Copyright 2019 by Vermont Technical College | Last Revised: December 21, 2019</p>
+        <p>&#169; Copyright 2019 by Vermont State University | Last Revised: December 21, 2019</p>
       </div>
       <!-- END FOOTER -->
     </div>
