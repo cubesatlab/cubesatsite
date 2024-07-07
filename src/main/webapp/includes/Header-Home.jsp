@@ -24,13 +24,12 @@
   <nav class="menu">
     <ul>
       <li><a class="current_page_item" href="index.jsp">Home</a></li>
-      <li>
-        <a class="normal" href="CubedOS.jsp">CubedOS </a>
-      </li>
+      <li><a class="normal" href="CubedOS.jsp">CubedOS </a></li>
+      
       <li class="tab">
-        <a class="newdropdown" onmouseenter="mouseEnterBasicLEO()" onclick="toggle('BasicLEO', 'drop1')">BasicLEO</a>
-        <button class="navbar" aria-haspopup="true" aria-expanded="false" id="drop1" onclick="toggle('BasicLEO', 'drop1')">&#9660;</button>
-		<ul class="sub-menu" onmouseleave="mouseLeaveBasicLEO()" style="display: none" id="BasicLEO">
+        <a class="newdropdown" onmouseenter="mouseEnterBasicLEO()" onclick="toggle('BasicLEODropdown', 'drop1')">BasicLEO</a>
+        <button class="navbar" aria-haspopup="true" aria-expanded="false" id="drop1" onclick="toggle('BasicLEODropdown', 'drop1')">&#9660;</button>
+	<ul class="sub-menu" onmouseleave="mouseLeaveBasicLEO()" style="display: none" id="BasicLEODropdown">
           <li><a href="BasicLEO.jsp">Overview</a></li>
           <li><a href="BasicLEO-Hardware.jsp">Hardware</a></li>
           <li><a href="BasicLEO-Software.jsp">Software</a></li>
@@ -38,15 +37,27 @@
           <li><a href="BasicLEO-Data.jsp">Data</a></li>
         </ul>
       </li>
+      
       <li class="tab">
         <a class="newdropdown" onmouseenter="mouseEnterAlaskanIce()" onclick="toggle('AlaskanIceDropdown', 'drop2')">AlaskanIce</a>
-		<button class="navbar" aria-haspopup="true" aria-expanded="false" id="drop2" onclick="toggle('AlaskanIceDropdown', 'drop2')">&#9660;</button>
-		<ul class="sub-menu" onmouseleave="mouseLeaveAlaskanIce()" style="display: none" id="AlaskanIceDropdown">
-	    <li><a href="AlaskanIce.jsp">Overview</a></li>
-		  <li><a href="AlaskanIce-Hardware.jsp">Hardware</a></li>
-		  <li><a href="AlaskanIce-Software.jsp">Software</a></li>
-		</ul>
-	  </li>
+	<button class="navbar" aria-haspopup="true" aria-expanded="false" id="drop2" onclick="toggle('AlaskanIceDropdown', 'drop2')">&#9660;</button>
+	<ul class="sub-menu" onmouseleave="mouseLeaveAlaskanIce()" style="display: none" id="AlaskanIceDropdown">
+	  <li><a href="AlaskanIce.jsp">Overview</a></li>
+	  <li><a href="AlaskanIce-Hardware.jsp">Hardware</a></li>
+	  <li><a href="AlaskanIce-Software.jsp">Software</a></li>
+	</ul>
+      </li>
+      
+      <li class="tab">
+        <a class="newdropdown" onmouseenter="mouseEnterResources()" onclick="toggle('ResourcesDropdown', 'drop3')">Resources</a>
+	<button class="navbar" aria-haspopup="true" aria-expanded="false" id="drop3" onclick="toggle('ResourcesDropdown', 'drop3')">&#9660;</button>
+	<ul class="sub-menu" onmouseleave="mouseLeaveResources()" style="display: none" id="ResourcesDropdown">
+	  <li><a href="/CubedOS/doc/CubedOS.pdf" target="_blank">Main Documentation</a></li>
+	  <li><a href="/CubedOS/src/check/build/gnatdoc/html/index.html" target="_blank">CubedOS API</a></li>
+	  <li><a href="/CubedOS/mercury/target/scala-3.4.2/api/index.html" target="_blank">Mercury API</a></li>
+	</ul>
+      </li>
+
     </ul>
   </nav>
 </div>
