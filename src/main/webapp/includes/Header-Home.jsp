@@ -53,7 +53,7 @@
 	<button class="navbar" aria-haspopup="true" aria-expanded="false" id="drop3" onclick="toggle('ResourcesDropdown', 'drop3')">&#9660;</button>
 	<ul class="sub-menu" onmouseleave="mouseLeaveResources()" style="display: none" id="ResourcesDropdown">
 	  <li><a href="/CubedOS/doc/CubedOS.pdf" target="_blank">Main Documentation</a></li>
-	  <li><a href="/CubedOS/src/check/build/gnatdoc/html/index.html" target="_blank">CubedOS API</a></li>
+	  <li><a href="/CubedOS/src/check/build/gnatdoc/index.html" target="_blank">CubedOS API</a></li>
 	  <li><a href="/CubedOS/mercury/target/scala-3.4.2/api/index.html" target="_blank">Mercury API</a></li>
 	</ul>
       </li>
